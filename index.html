@@ -4,17 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <title>CV for RS</title>
   </head>
   <body>
-    <div id="container" class="container">
-      <header class="header">
+    <header class="header">
+      <div id="container" class="container">
         <div class="foto-wrapper">
           <img src="img/myFoto.jpg" alt="MyFoto" class="foto" />
         </div>
         <h1 class="main-title">Aliaksandr Hramyka</h1>
-      </header>
-      <section class="education">
+      </div>
+    </header>
+    <section class="education">
+      <div id="container" class="container">
         <h2 class="education__title title">Education</h2>
         <p class="education__text">
           <span> 2003 - 2007 </span> Technical College (electrician)
@@ -25,8 +33,10 @@
         <p class="education__text">
           <span> 2020</span> I studied Front-end in online courses
         </p>
-      </section>
-      <section class="experience">
+      </div>
+    </section>
+    <section class="experience">
+      <div id="container" class="container">
         <h2 class="experience__title title">Experience</h2>
         <ul class="experience__list">
           <li class="experience__item">
@@ -40,8 +50,10 @@
             <span> 2019 </span> I worked in a shipyard
           </li>
         </ul>
-      </section>
-      <footer class="footer">
+      </div>
+    </section>
+    <footer class="footer">
+      <div id="container" class="container container-footer">
         <div class="github">
           <a href="https://github.com/hataevicha5922" class="github__link"
             ><img
@@ -52,9 +64,11 @@
           >
         </div>
         <div class="rs">
-          <a href="https://rs.school/js/" class="rs__link"></a>
+          <a href="https://rs.school/js/" class="rs__link"
+            ><img src="img/rs_school_js.svg" alt=""
+          /></a>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
