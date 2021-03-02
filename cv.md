@@ -16,4 +16,5 @@ My goal is to master Front-end.
 ## Experience
 
 2. **2012-2017** I worked as an engineer in a construction company
-3. **2017-2019**
+3. **2017-2019** I worked in Gomel Vodokanal
+4. **2019** I worked in a shipyard
